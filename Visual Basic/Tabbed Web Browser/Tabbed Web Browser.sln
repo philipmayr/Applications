@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Basic Express 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Tabbed Web Browser", "Tabbed Web Browser\Tabbed Web Browser.vbproj", "{902EFA3E-9612-48A6-8974-F3FD881764C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{902EFA3E-9612-48A6-8974-F3FD881764C2}.Debug|x86.ActiveCfg = Debug|x86
+		{902EFA3E-9612-48A6-8974-F3FD881764C2}.Debug|x86.Build.0 = Debug|x86
+		{902EFA3E-9612-48A6-8974-F3FD881764C2}.Release|x86.ActiveCfg = Release|x86
+		{902EFA3E-9612-48A6-8974-F3FD881764C2}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
