@@ -21,7 +21,7 @@ namespace Writer
         {
             if (DocumentTextChanged)
             {
-                switch (MessageBox.Show("Do you want to save changes to " + FullFileName + "?", "Writer", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question))
+                switch (MessageBox.Show("Do you wish to save changes to " + FullFileName + "?", "Writer", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question))
                 {
                     case DialogResult.Yes:
                         if (OpenedDocument || SavedDocument)
@@ -76,7 +76,7 @@ namespace Writer
         {
             if (DocumentTextChanged)
             {
-                switch (MessageBox.Show("Do you want to save changes to " + FullFileName + "?", "Writer", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question))
+                switch (MessageBox.Show("Do you wish to save changes to " + FullFileName + "?", "Writer", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question))
                 {
                     case DialogResult.Yes:
                         SaveDocument(null, null);
